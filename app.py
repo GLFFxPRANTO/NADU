@@ -11,8 +11,8 @@ app = Flask(__name__)
 
 # Yeni JWT üretici için hesap bilgileri ve endpoint
 JWT_GEN_URL = "https://jwt-l7aj.vercel.app/get?uid={uid}&password={password}"
-JWT_UID = "3840779404"
-JWT_PASS = "04C7D221474387F7B7EF3281C4BBD151FE8B662605836423E5F2A4EFC807AD66"
+JWT_UID = "3814385949"
+JWT_PASS = "115B726941DECF1A780264EE8CA4E2625178F24CC10CC1A34D65254E928ECF28"
 
 def get_jwt():
     """
@@ -186,7 +186,7 @@ def get_player_info():
                 return jsonify({
                     "status": "error",
                     "message": f"Failed to parse player information: {str(e)}",
-                    "credits": "Scromnyi 444",
+                    "credits": "PRANTO",
                     "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 }), 500
 
